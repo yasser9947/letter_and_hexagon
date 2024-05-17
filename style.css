@@ -18,7 +18,7 @@ h1{
 }
 
 body{
-  background: rgb(238, 240, 186);
+  background: #DCB058;
 }
 .center {
 display: flex;
@@ -78,52 +78,52 @@ display: flex;
       
   }
  .row1 .hexagon {
-    background-color: rgb(255, 0, 0);
+    background-color: #A8BD8D;
 
   }
    .row1 .hexagon:after{
     top: 100%;
     width: 0;
-    border-top: 15.88px solid rgb(255, 0, 0);
+    border-top: 15.88px solid #A8BD8D;
 
   }
   .row1 .hexagon:before{
     bottom: 100%;
-    border-bottom: 15.88px solid rgb(255, 0, 0);
+    border-bottom: 15.88px solid #A8BD8D;
    
 
   }
   /* to make the red row above */
   .row7 .hexagon {
-    background-color: rgb(255, 0, 0);
+    background-color: #A8BD8D;
 
   }
    .row7 .hexagon:after{
     top: 100%;
     width: 0;
-    border-top: 15.88px solid  rgb(255, 0, 0);
+    border-top: 15.88px solid  #A8BD8D;
 
   }
   .row7 .hexagon:before{
     bottom: 100%;
-    border-bottom: 15.88px solid rgb(255, 0, 0);
+    border-bottom: 15.88px solid #A8BD8D;
    
 
   }
   /* to make green riht */
   
   #last{
-background-color: rgb(0, 255, 0);
+background-color: #e0b9a9;
   }
 
   #last:after{
  top: 100%;
  width: 0;
- border-top: 15.88px solid rgb(0, 255, 0);
+ border-top: 15.88px solid #e0b9a9;
 }
 #last:before{
  bottom: 100%;
- border-bottom: 15.88px solid rgb(0, 255, 0);
+ border-bottom: 15.88px solid #e0b9a9;
 
 
 }
@@ -132,7 +132,7 @@ background-color: rgb(0, 255, 0);
     position: relative;
     width: 55px; 
     height: 31.75px;
-    background-color: rgb(255, 0, 0);
+    background-color: #A8BD8D;
     margin: 15.88px 0;
   }
   
@@ -147,20 +147,20 @@ background-color: rgb(0, 255, 0);
   
   .red:before {
     bottom: 100%;
-    border-bottom: 15.88px solid rgb(255, 3, 3);
+    border-bottom: 15.88px solid #A8BD8D;
   }
   
   .red:after {
     top: 100%;
     width: 0;
-    border-top: 15.88px solid rgb(255, 0, 0);
+    border-top: 15.88px solid #A8BD8D;
   }
   /* To change the color to green */
   .green {
     position: relative;
     width: 55px; 
     height: 31.75px;
-    background-color:  rgb(0, 255, 3);
+    background-color:  #e0b9a9;
     margin: 15.88px 0;
   }
   
@@ -175,13 +175,13 @@ background-color: rgb(0, 255, 0);
   
   .green:before {
     bottom: 100%;
-    border-bottom: 15.88px solid rgb(0, 255, 3);
+    border-bottom: 15.88px solid #e0b9a9;
   }
   
   .green:after {
     top: 100%;
     width: 0;
-    border-top: 15.88px solid  rgb(0, 255, 3);
+    border-top: 15.88px solid  #e0b9a9;
   }
   
   h2 {
@@ -223,6 +223,8 @@ background-color: rgb(0, 255, 0);
   /* position: relative; */
   /* left: 108px;
   top: -326px; */
+    /*background-color: rgb(238, 240, 186);*/
+
 }
 
 .Player2 {
